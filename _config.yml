@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Lauren Fuller # Make a title for your blog
+title: HMM, I need a new Title for the Blog # Make a title for your blog
 email: lfuller151@gmail.com # Add your email 
 description: >- # this means to ignore newlines until "baseurl:"
  Just over here learning how to use Git, Github, and Python.
