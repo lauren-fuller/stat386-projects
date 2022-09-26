@@ -9,7 +9,7 @@ image: /assets/images/DataViz.webp
 
 ## Overview
 
-Data Visualization is an important branch of data science. It is one of the main tools used to analyze and study relationships between different variables. 
+Data Visualization is an important branch of data science. It is one of the main tools used to analyze and study relationships between different variables. This tutorial will guide you in learning how to create common types of univariate, bivariate, and multivariate charts in python. 
 
 ## Why are charts useful? Why can't I just present the stats?
 
@@ -17,42 +17,41 @@ When presenting information, especially to those with limited backgrounds in sta
 
 However, once you show a chart or graph, all your ramblings make sense. It doesn't matter how well you present and explain the statistics. A nice looking chart just is sometimes better able to communicate to an audience what's happening in the data. 
 
+## Step 1
+In order to create the data plots below, we must first install either matplotlib or seaborn by running the following code: 
+
+Matplotlib is the pionner data visualization package in Python while seaborn is a little more advanced. 
+
 ## Adding details and 
 You are free to modify your graph or chart any way you want, as long as it won’t look messy, distracting, and incoherent. 
- 
-
-## Python packages
-The Matplotlib package is the original pioneer of Python data visualization.
-- first need to import the matplot lib 
-Seaborn is a more advanced package.
-
-## Line Plot - Univariate
-We create a plot using the function plt.plot().
-We show the graph using plt.show()
-
-## Adding Plot labels - Univariate
-X Axis : plt.xlabel('X axis')
-Y Axis : plt.ylabel('Y axis')
-Title: plt.title('Title')
-
-- legend: plt.legend()
-
-## Adding Color - Univariate Line Plot
-## Markers - Univariate Line Plot
 
 
-## Univariate Data Visualizations
-Histogram
-plt.hist()
 
-Boxplot
+## Univariate Data
+The most common
+* Boxplot
+* Histogram
+
+It may be worth noting that people are more likely to understand and interpret a histogram than a boxplot. 
+
+### Boxplot
+
+
+
+### Histogram
 
 ## Bivariate 
-Contains two types of variables: numeric or categorical
-Can have the following combinations: 
-- numerical / numberical
-- numerical / categorical
-- categorical / categorical
+Bivariate charts can display two types of variables in the following combinations: 
+1. numerical / numerical
+    * scatterplot with line of regression
+2. numerical / categorical
+    * bar chart
+    * stacked bar chart
+    * categorized boxplot
+3. categorical / categorical
+    * count bar chart
+    * cross tab with heat map
+
 
 - line of regression
     - import scipy import stats 
