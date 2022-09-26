@@ -56,10 +56,6 @@ Bivariate charts can display two types of variables in the following combination
     * count bar chart
     * cross tab with heat map
 
-
-- line of regression
-    - import scipy import stats 
-
 ## 3D Scatterplots
 - need to import a new
 
