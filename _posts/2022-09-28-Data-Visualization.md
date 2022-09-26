@@ -40,10 +40,14 @@ It may be worth noting that people are more likely to understand and interpret a
 
 ### Histogram
 
+
+
+
 ## Bivariate 
 Bivariate charts can display two types of variables in the following combinations: 
 1. numerical / numerical
     * scatterplot with line of regression
+    * scatterplot with histogram
 2. numerical / categorical
     * bar chart
     * stacked bar chart
