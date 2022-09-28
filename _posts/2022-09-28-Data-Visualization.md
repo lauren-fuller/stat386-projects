@@ -59,6 +59,20 @@ Bivariate charts can display two types of variables in the following combination
 ## 3D Scatterplots
 - need to import a new
 
+### - Seaborn Boxplot
+
+The seaborn boxplot allows for a little bit more customization with aesthetics like color and text positioning than matplotlib offers. We can set up a simple seaborn boxplot plot with the following code:
+
+*image
+
+The plot should end up looking something like this: 
+
+*image
+
+Commands:
+The `text = ` option allows us to put a title or any text we'd like within the boundaries of the plot. It allows multiple data types to be passed and displayed on the plot. 
+
+The first two arguments or numbers in the `plt.text` argument represent the position of the text input on the plot. For example, if we wrote `plt.text(.50, .50, ...)` then the text would appear in the exact middle of the plot. You can adjust the font size by changing the value after `fontsize = `. The arguments inside the `outlier_format` command such as `marker = , markerfacecolor = , markersize = , linestyle = ,` and  `markeredgecolor = ` allow us to change the shape, color, and size of the outliers on the boxplot. 
 
 
 
